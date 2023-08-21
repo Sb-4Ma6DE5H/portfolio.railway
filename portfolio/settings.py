@@ -72,14 +72,25 @@ WSGI_APPLICATION = 'portfolio.wsgi.app'
 #     }
 # }
 
+# DATABASES = {
+#     "default": {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME':'railway',
+#         "USER": 'postgres',
+#         "PASSWORD": 'l6LMUx5oS0LZar33DuYp',
+#         "HOST": 'containers-us-west-89.railway.app',
+#         "PORT": "5878",
+#     }
+# }
+
 DATABASES = {
     "default": {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME':'railway',
         "USER": 'postgres',
-        "PASSWORD": 'l6LMUx5oS0LZar33DuYp',
-        "HOST": 'containers-us-west-89.railway.app',
-        "PORT": "5878",
+        "PASSWORD": 'spp58PFHeqJuApwNZbgp',
+        "HOST": 'containers-us-west-192.railway.app',
+        "PORT": "7023",
     }
 }
 
